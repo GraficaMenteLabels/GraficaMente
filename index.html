@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraficaMente - Studio Grafico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo GraficaMente" class="logo-img">
+            <p>Design & Creatività</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#chi-siamo">Chi Siamo</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Trasformiamo le tue idee in realtà visive</h2>
+            <p>Creatività, innovazione e design per il tuo brand.</p>
+            <a href="#servizi" class="btn">Scopri di più</a>
+        </div>
+    </section>
+
+    <section id="chi-siamo" class="contenitore">
+        <h2>Chi Siamo</h2>
+        <p>Benvenuti in **GraficaMente**, il vostro studio grafico di fiducia. Specializzato in design grafico, branding e comunicazione visiva, e-labels. La nostra missione è trasformare le vostre idee in progetti unici e memorabili.</p>
+    </section>
+
+    <section id="servizi" class="contenitore">
+        <h2>Servizi</h2>
+        <div class="servizi-grid">
+            <div class="servizio">
+            <h3><a href="etichette.html" target="_blank">E-Labels</a></h3>
+            <p>Realizziamo etichette digitali per vino e altri prodotti alimentari con relativo QR Code</p>
+        </div>
+        <div class="servizio">
+            <h3>Branding</h3>
+            <p>Creiamo identità visive uniche e memorabili per il tuo brand.</p>
+        </div>
+        <div class="servizio">
+            <h3>Illustrazione</h3>
+            <p>Realizziamo illustrazioni personalizzate per progetti creativi.</p>
+        </div>
+        <div class="servizio">
+            <h3>Web Design</h3>
+            <p>Progettiamo siti web moderni e responsive per ogni esigenza.</p>
+        </div>
+
+</section>
+
+    <section id="portfolio" class="contenitore">
+        <h2>Portfolio</h2>
+        <div class="galleria">
+            <img src="https://via.placeholder.com/300" alt="Progetto 1">
+            <img src="https://via.placeholder.com/300" alt="Progetto 2">
+            <img src="https://via.placeholder.com/300" alt="Progetto 3">
+        </div>
+    </section>
+    
+    <footer id="contatti">
+        <h2>Contatti</h2>
+        <p>Email: graficamente93@gmail.com</p>
+        </footer>
+<script>
+        // Funzione per mostrare/nascondere la cartella Etichette
+        function toggleEtichette() {
+            const cartella = document.getElementById('cartella-etichette');
+            if (cartella.style.display === 'none' || cartella.style.display === '') {
+                cartella.style.display = 'block'; // Mostra la cartella
+            } else {
+                cartella.style.display = 'none'; // Nascondi la cartella
+            }
+        }
+
+        // Funzione per cambiare la pagina nell'iframe
+        function cambiaPagina(select) {
+            const iframe = document.getElementById('iframe-pagina');
+            iframe.src = select.value; // Imposta l'URL della pagina selezionata
+        }
+    </script>
+</body>
+</html>

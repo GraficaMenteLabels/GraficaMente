@@ -1,0 +1,185 @@
+﻿/* Stile per il logo */
+.logo-img {
+    width: 300px; /* Larghezza del logo */
+    height: auto; /* Altezza automatica per mantenere le proporzioni */
+    margin-bottom: 10px; /* Spazio tra il logo e il testo sottostante */
+}
+
+/* Stile per il testo sotto il logo */
+.logo p {
+    font-size: 1.2em;
+    color: #ecf0f1;
+    margin-top: 5px;
+}
+/* Reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header .logo p {
+    font-size: 1.2em;
+    color: #ecf0f1;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Etichette/Alba.html>Nuova Pagina</a></li>
+        <li><a href="paginaduplicata.html">Pagina Duplicata</a></li>
+    </ul>
+</nav>
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498db;
+}
+
+#hero {
+    background-color: #3498db;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+.contenitore {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#chi-siamo {
+    background-color: #fff;
+}
+
+#servizi {
+    background-color: #ecf0f1;
+}
+
+.servizi-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.servizio {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.servizio:hover {
+    transform: translateY(-10px);
+}
+
+.servizio h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.servizio p {
+    font-size: 1em;
+    color: #666;
+}
+
+#portfolio {
+    background-color: #fff;
+}
+
+.galleria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.galleria img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.galleria img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
